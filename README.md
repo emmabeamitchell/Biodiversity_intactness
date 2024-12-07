@@ -2,6 +2,8 @@
 
 #### Emma Bea Mitchell | December 7th, 2014
 
+[Link to github repository](https://github.com/emmabeamitchell/Biodiversity_intactness)
+
 ### About: 
 
 This notebook explores biodiversity intactness in the greater Phoenix, AZ area through mapping a biodiversity intactness index (BII). After exploring the data, we map the Phoenix Subdivision and the surrounding area to get an idea of where we are looking at. We then calculate the BII percentage change from 2017 to 2020 and map that change. 
