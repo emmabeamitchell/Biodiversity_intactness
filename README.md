@@ -4,6 +4,11 @@
 
 [Link to github repository](https://github.com/emmabeamitchell/Biodiversity_intactness)
 
+### Final Output:
+
+<img src="BII_map.png" alt="Biodiversity Intactness Index map of Phoenix">
+A map of the Biodiversity Intactness Index of the Phoenix Subdivision documenting BII differences from 2017 to 2020. 
+
 ### About: 
 
 This notebook explores biodiversity intactness in the greater Phoenix, AZ area through mapping a biodiversity intactness index (BII). After exploring the data, we map the Phoenix Subdivision and the surrounding area to get an idea of where we are looking at. We then calculate the BII percentage change from 2017 to 2020 and map that change. 
@@ -42,6 +47,8 @@ A map of the Biodiversity Intactness Index of the Phoenix Subdivision documentin
 
 I couldn't have completed this notebook without the help from my peers
 This notebook is from an assignment in EDS 220 Working with Environmental Datasets, a graduate level course in the Master of Environmental Data Science program at the Bren School for Environmental Science and Management at UCSB. This class was taught by Carmen Galaz García, and TA'ed by Annie Adams. Without them or this class, none of this repository would be possible :) 
+
+Open source data availability provided by the Census Bureau, Microsoft, and the contextily package were all integral in the completion of this notebook. 
 
 ### Repository Organization 
 
