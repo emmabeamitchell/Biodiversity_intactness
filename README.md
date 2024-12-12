@@ -1,4 +1,5 @@
-# Biodiversity_intactness
+# Biodiversity Intactness in Phoenix Arizona
+## Comparing biodiversity loss from 2017 to 2020 in Phoenix
 
 #### Emma Bea Mitchell | December 7th, 2014
 
@@ -32,16 +33,23 @@ The `io-biodiversity` data comes from the Microsoft Planetary Computer STAC cata
 
 The `counties` data comes from the governmental census, which creates shapefiles for political borders like counties. The data we downloaded in only for Arizona, making it easier to narrow down on the Phoenix Subdivision. All data from the government's census website is open access. 
 
-#### References: 
-
-Microsoft Planetary Computer. (2024). Microsoft.com. https://planetarycomputer.microsoft.com/dataset/io-biodiversity. Accessed 12-07-2024. 
-
-‌Bureau, U. C. (2021). Cartographic Boundary Files - Shapefile. The United States Census Bureau. https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html. Accessed 12-07-2024.
 
 ### Final Output:
 
 <img src="BII_map.png" alt="Biodiversity Intactness Index map of Phoenix">
 A map of the Biodiversity Intactness Index of the Phoenix Subdivision documenting BII differences from 2017 to 2020. 
+
+### Repository Organization 
+
+```python
+Biodiversity_intactness
+|  README.md
+|   biodiversity_intactness.ipynb
+|   .gitignore
+|   BII_map.png
+│
+       
+```
 
 ### Acknowledgements: 
 
@@ -50,25 +58,12 @@ This notebook is from an assignment in EDS 220 Working with Environmental Datase
 
 Open source data availability provided by the Census Bureau, Microsoft, and the contextily package were all integral in the completion of this notebook. 
 
-### Repository Organization 
 
-```python
-Biodiversity_intactness
-│   README.md
-|   biodiversity_intactness.ipynb
-|   .gitignore
-|   BII_map.png
-│
-└── data 
-    │  cb_2023_04_cousub_500k.cpg
-    │  cb_2023_04_cousub_500k.dbf
-    │  cb_2023_04_cousub_500k.prj
-    │  cb_2023_04_cousub_500k.shp
-    │  cb_2023_04_cousub_500k.shp.ea.iso.xml
-    │  cb_2023_04_cousub_500k.shp.iso.xml
-    │  cb_2023_04_cousub_500k.shx
-       
-```
+#### References: 
 
-      
+All data is open access and can be accessed at the following links:
+
+Microsoft Planetary Computer. (2024). Microsoft.com. https://planetarycomputer.microsoft.com/dataset/io-biodiversity. Accessed 12-07-2024. 
+
+‌Bureau, U. C. (2021). Cartographic Boundary Files - Shapefile. The United States Census Bureau. https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html. Accessed 12-07-2024.     
     
